@@ -1,2 +1,7 @@
 CarCanSniffer
 Java/Swing/atmega/mcp2515
+
+Hi all!
+This project will let you communicate with car canbus.
+Project is divided into two sections. First one is 
+atmega firmware decoding canbus signals from car to serial output. 
