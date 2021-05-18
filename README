@@ -1,7 +1,25 @@
 CarCanSniffer
-Java/Swing/atmega/mcp2515
+Java/Swing/arduino/mcp2515
 
 Hi all!
 This project will let you communicate with car canbus.
 Project is divided into two sections. First one is 
 atmega firmware decoding canbus signals from car to serial output. 
+
+Arduino wiring as follow:
+
+PC          
+USB---------Arduino                   MCP2515             CAR OBD2
+            2-------------------------INT   CAN H----------6
+            13------------------------SCK   CAN L----------14
+            11------------------------SI
+            12------------------------SO
+            10------------------------CS
+            5V------------------------VCC
+            GND-----------------------GND
+
+
+
+In CarCanSnifferArduino you can find ready to go arduino sketch. You can upload it using ie. ArduinoSdk
+CarCanSniffer was made in java, IntelliJ.
+Happy to help if any questions.
